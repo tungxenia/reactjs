@@ -1,0 +1,75 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./style/scss/app.scss ***!
+  \**************************************************************************************************************/
+/* =========================================================================
+   Component: Main
+   Author: TungNV
+   Email: tungvan11t2@gmail.com
+   ========================================================================== 
+*/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.c-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: #fff;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 0 15px;
+}
+.c-header__logo {
+  height: 40vmin;
+  color: #282c34;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .c-header__logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.c-header__link {
+  color: #61dafb;
+}
+.c-header__link:hover {
+  text-decoration: none;
+}
+
+.c-main {
+  max-width: 1440px;
+  width: 100%;
+  margin: 40px auto;
+  overflow: scroll hidden;
+}
+.c-main__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.c-main__table--th, .c-main__table--td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+.c-main__table--tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.c-footer {
+  background: #000;
+  color: #fff;
+  margin: 0;
+  padding: 20px 15px;
+  text-align: center;
+}
+.c-footer p {
+  font-size: 14px;
+}

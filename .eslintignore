@@ -1,0 +1,9 @@
+# Specific Ignores
+
+/vendor
+/node_modules/
+/bower_components/
+
+assets/
+App.test.js
+

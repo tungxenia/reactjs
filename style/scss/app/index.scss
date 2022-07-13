@@ -1,0 +1,22 @@
+.c-main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 40px auto;
+    overflow: scroll hidden;
+
+    &__table {
+        border-collapse: collapse;
+        width: 100%;
+
+        &--th,
+        &--td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        &--tr:nth-child(even) {
+            background-color: #ddd;
+        }
+    }
+}

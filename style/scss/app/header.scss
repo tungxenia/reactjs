@@ -1,0 +1,29 @@
+.c-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #282c34;
+    color: #fff;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    padding: 0 15px;
+
+    &__logo {
+        height: 40vmin;
+        color: #282c34;
+        pointer-events: none;
+
+        @media (prefers-reduced-motion: no-preference) {
+            animation: App-logo-spin infinite 20s linear;
+        }
+    }
+    
+    &__link {
+        color: #61dafb;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
